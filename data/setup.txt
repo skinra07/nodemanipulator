@@ -1,0 +1,10 @@
+I built this application using VS 2015 with "Qt Visual Studio Tools" installed as an "Extensions and Updates" from Tools Mneu.
+
+1) First I install QT 5.12 with mvcs 2015 64 bits. It created QTDIR as "C:\Qt\5.12.0\msvc2015_64"
+2) In PATH, I added "C:\Qt\5.12.0\msvc2015_64\bin"
+3) Using above setup. I developed QT Class Library, TreeViewModel.
+4) NodeManipulator, is QT GUI application with QTreeview. It uses above setup including TestViewModel.lib
+5) Finally I built googleTest app, TreeViewModelTest, that uses above setup including include files from "includes" folder and 
+   gtestb.lib and gtest_main.lib files from "lib" folder
+  
+6) When you execute NodeManipulator, load the test.json file from "data" folder.
