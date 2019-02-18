@@ -49,5 +49,7 @@ public:
 private:
 	TreeItem *m_rootNode;
 	QStringList m_headers;
+
+	static constexpr char const mimeType_treeItems[] = "application/x-treenode";
 };
 #endif // ITEMTREEMODEL_H

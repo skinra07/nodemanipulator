@@ -12,8 +12,6 @@
 #include <QJsonObject>
 #include <QDebug>
 
-static const char mimeType_treeItems[] = "application/x-treeitems";
-
 ItemTreeModel::ItemTreeModel(QObject *parent) :
 	QAbstractItemModel(parent)
 {
